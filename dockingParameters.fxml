@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+   <center>
+      <TabPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+          <Tab text="Untitled Tab 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="38.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="63.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="88.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="116.0" mnemonicParsing="false" text="CheckBox" />
+                        <TextField layoutX="99.0" layoutY="10.0" />
+                        <TextField layoutX="99.0" layoutY="34.0" />
+                        <TextField layoutX="99.0" layoutY="59.0" />
+                        <TextField layoutX="99.0" layoutY="84.0" />
+                        <TextField layoutX="99.0" layoutY="112.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" />
+                        <Separator layoutY="147.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="3.0" prefWidth="600.0" />
+                        <Separator layoutY="214.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="3.0" prefWidth="600.0" />
+                        <RadioButton layoutX="14.0" layoutY="171.0" mnemonicParsing="false" text="RadioButton" />
+                        <RadioButton layoutX="205.0" layoutY="171.0" mnemonicParsing="false" text="RadioButton" />
+                        <CheckBox layoutX="14.0" layoutY="228.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="284.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="264.0" layoutY="228.0" mnemonicParsing="false" text="CheckBox" />
+                        <TextField layoutX="264.0" layoutY="259.0" prefHeight="25.0" prefWidth="32.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Untitled Tab 2">
+            <content>
+              <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <CheckBox layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="40.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="66.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="92.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="117.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="141.0" mnemonicParsing="false" text="CheckBox" />
+                        <CheckBox layoutX="14.0" layoutY="167.0" mnemonicParsing="false" text="CheckBox" />
+                        <RadioButton layoutX="127.0" layoutY="40.0" mnemonicParsing="false" text="RadioButton" />
+                        <CheckBox layoutX="14.0" layoutY="191.0" mnemonicParsing="false" text="CheckBox" />
+                        <RadioButton layoutX="257.0" layoutY="40.0" mnemonicParsing="false" text="RadioButton" />
+                        <TextField layoutX="431.0" layoutY="10.0" />
+                        <TextField layoutX="431.0" layoutY="45.0" />
+                        <TextField layoutX="431.0" layoutY="80.0" />
+                        <TextField layoutX="431.0" layoutY="113.0" />
+                        <TextField layoutX="431.0" layoutY="146.0" />
+                        <TextField layoutX="431.0" layoutY="179.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Untitled Tab 2">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView layoutX="14.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" />
+                        <ListView layoutX="386.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" />
+                        <Button layoutX="274.0" layoutY="71.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="274.0" layoutY="158.0" mnemonicParsing="false" text="Button" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Untitled Tab 2">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView layoutX="14.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" />
+                        <ListView layoutX="386.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" />
+                        <Button layoutX="274.0" layoutY="71.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="274.0" layoutY="158.0" mnemonicParsing="false" text="Button" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab text="Untitled Tab 2">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView layoutX="14.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" />
+                        <ListView layoutX="386.0" layoutY="37.0" prefHeight="200.0" prefWidth="200.0" />
+                        <Button layoutX="274.0" layoutY="71.0" mnemonicParsing="false" text="Button" />
+                        <Button layoutX="274.0" layoutY="158.0" mnemonicParsing="false" text="Button" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="31.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
